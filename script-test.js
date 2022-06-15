@@ -1,18 +1,11 @@
-<script>
+function createParagraph() {
+  let para = document.createElement('p');
+  para.textContent = 'You clicked the button!';
+  document.body.appendChild(para);
+}
 
-  // JavaScript 將放在這裡
-document.addEventListener("DOMContentLoaded", function() {
-  function createParagraph() {
-    let para = document.createElement('p');
-    para.textContent = 'You clicked the button!';
-    document.body.appendChild(para);
-  }
+const buttons = document.querySelectorAll('button');
 
-  const buttons = document.querySelectorAll('button');
-
-  for(let i = 0; i < buttons.length ; i++) {
-    buttons[i].addEventListener('click', createParagraph);
-  }
-});
-
-</script>
+for(let i = 0; i < buttons.length ; i++) {
+  buttons[i].addEventListener('click', createParagraph);
+}
