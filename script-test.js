@@ -1,11 +1,3 @@
-﻿<!DOCTYPE html>
-
-<html lang="en-US">
-  <head>
-
-    <meta charset="utf-8">
-
-    <title>Apply JavaScript example</title>
 <script>
 
   // JavaScript 將放在這裡
@@ -24,12 +16,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
-  </head>
-
-  <body>
-
-    <button>Click me</button>
-
-  </body>
-
-</html>
